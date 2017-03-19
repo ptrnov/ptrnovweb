@@ -7,10 +7,12 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAsset;
 use common\widgets\Alert;
-
+use frontend\assets\AppAsset;
 AppAsset::register($this);
+use frontend\assets\AppAssetFreelancer;
+AppAssetFreelancer::register($this);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -28,16 +30,20 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => '<img src="http://ptrnov.net/img/ptrnov-putih.png" class="navbar-fixed-top" style="width:170px; height:40px; margin-left:50px; margin-top:5px"/>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        // ['label' => 'Home', 'url' => ['/site/index']],
+        // ['label' => 'About', 'url' => ['/site/about']],
+        // ['label' => 'Contact', 'url' => ['/site/contact']],  
+		['label' => 'Home', 'url' => ['#']],
+        ['label' => 'Portofolio', 'url' => ['/site/#home1']],
+        ['label' => 'About', 'url' => ['/site/#about']],
+        ['label' => 'Contact', 'url' => ['/site/#contact']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
