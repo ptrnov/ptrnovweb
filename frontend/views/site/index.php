@@ -1,7 +1,7 @@
-<body id="page-top" class="index">
+
  <!-- Header -->
     <header>
-        <div class="container" id="maincontent" tabindex="-1">
+        <div class="container" id="home" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
                     <img src="http://ptrnov.net/img/pp.jpg"  class="img-circle" alt="Cinque Terre" width="150" height="150">
@@ -16,7 +16,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="#home1">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -26,7 +26,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#home" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -447,4 +447,4 @@
             </div>
         </div>
     </div>
-</div>
+
