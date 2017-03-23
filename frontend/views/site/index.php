@@ -2,11 +2,13 @@
 	<div class="col-xs-12 col-md-12 col-lg-12 ">
 	
 	<!-- Header -->
-		<section id="home">
-			<header>   
+		
+		<header>   
+			<div class="" id="home" tabindex="-1">
 				<?=$this->render('_home')?>
-			</header>
-		</section>	
+			</div>
+		</header>
+
 
 		<!-- Portfolio Grid Section -->
 		 <section id="portfolio">
