@@ -10,14 +10,16 @@ AppAssetFreelancer::register($this);
 
 
     NavBar::begin([
-        'brandLabel' => '		
-			<img src="http://ptrnov.net/img/ptrnov-putih.png" class="navbar-header page-scroll" style="width:170px; height:40px; margin-left:50px; margin-top:0px"/>
-		',
-        // 'brandLabel' =>'
-			 // <div class="navbar-header page-scroll">                
-                // <a class="navbar-brand" href="#page-top">PTRNOV</a>
-            // </div>
+        // 'brandLabel' => '		
+			// <img src="http://ptrnov.net/img/ptrnov-putih.png" class="navbar-header page-scroll" style="width:170px; height:40px; margin-left:50px; margin-top:0px"/>
 		// ',
+        'brandLabel' =>'
+			 <div class="navbar-header page-scroll">                
+                <a class="navbar-brand" href="#page-top">
+					PTRNOV
+				</a>
+            </div>
+		',
 		'brandUrl' => Yii::$app->homeUrl,
         'options' => [
 			'id'=>'mainNav',
