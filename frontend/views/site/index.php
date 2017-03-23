@@ -2,10 +2,6 @@
 	<div class="col-xs-12 col-md-12 col-lg-12 ">
 	
 	<!-- Header -->
-	<section id="home">
-        <header>   
-			<?=$this->render('_home')?>
-		</header>
 	</section>
 		<header>
 			<div class="" id="home" tabindex="-1">
@@ -34,7 +30,7 @@
 		<!-- Contact Section -->
 		<section id="contact">
 			<div class="container">
-				<div class="row">
+				<div class="row">it 
 					<div class="col-lg-12 text-center">
 						<h2>Contact Me</h2>
 						<hr class="star-primary">
