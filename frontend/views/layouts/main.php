@@ -26,7 +26,7 @@ AppAssetFreelancer::register($this);
 					<!-- NAV BAR !-->
 					<?=$this->render('main-navbar')?>
 					<!-- BODY CONTAINER !-->
-					<div class="container">
+					<div>
 						<?= $content ?>
 					</div>
 				</div>

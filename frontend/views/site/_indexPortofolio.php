@@ -1,9 +1,10 @@
 <?php 
 use yii\helpers\Url;
+$baseUrl = Url::base(true);
+$path='/site/signup';
+$imageUrl=Url::base(true).'/template/ptr_front_smoth/img/portfolio/';
 
-		$url_dev = Url::base(true);
-		//$path='/site/ambil-data';
-		$path='/site/signup';
+
 		$a=$this->registerJs("
 		
 		 /* $(document).ready(function()
@@ -12,7 +13,7 @@ use yii\helpers\Url;
 				 //$('#myHref').on('load', function() {
 					$.ajax({
 						
-						url: '".$url_dev.$path."',
+						url: '".$baseUrl.$path."',
 					   type: 'post',
 					  // data: {searchname: $('#searchname').val() , searchby:$('#searchby').val()},
 					  // data: {searchname: $('#searchname').val() , searchby:$('#searchby').val()},
@@ -48,7 +49,7 @@ use yii\helpers\Url;
 						<i class="fa fa-search-plus fa-3x"></i>
 					</div>
 				</div>
-				<img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
+				<img src="<?=$imageUrl.'cabin.png'?>" class="img-responsive" alt="Cabin">
 			</a>
 		</div>
 		<div class="col-sm-4 portfolio-item">
@@ -58,7 +59,7 @@ use yii\helpers\Url;
 						<i class="fa fa-search-plus fa-3x"></i>
 					</div>
 				</div>
-				<img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
+				<img src="<?=$imageUrl.'cake.png'?>"  class="img-responsive" alt="Slice of cake">
 			</a>
 		</div>
 		<div class="col-sm-4 portfolio-item">
@@ -68,7 +69,7 @@ use yii\helpers\Url;
 						<i class="fa fa-search-plus fa-3x"></i>
 					</div>
 				</div>
-				<img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
+				<img src="<?=$imageUrl.'circus.png'?>" class="img-responsive" alt="Circus tent">
 			</a>
 		</div>
 		<div class="col-sm-4 portfolio-item">
@@ -78,7 +79,7 @@ use yii\helpers\Url;
 						<i class="fa fa-search-plus fa-3x"></i>
 					</div>
 				</div>
-				<img src="img/portfolio/game.png" class="img-responsive" alt="Game controller">
+				<img src="<?=$imageUrl.'game.png'?>" class="img-responsive" alt="Game controller">
 			</a>
 		</div>
 		<div class="col-sm-4 portfolio-item">
@@ -88,7 +89,7 @@ use yii\helpers\Url;
 						<i class="fa fa-search-plus fa-3x"></i>
 					</div>
 				</div>
-				<img src="img/portfolio/safe.png" class="img-responsive" alt="Safe">
+				<img src="<?=$imageUrl.'safe.png'?>" class="img-responsive" alt="Safe">
 			</a>
 		</div>
 		<div class="col-sm-4 portfolio-item">
@@ -98,6 +99,6 @@ use yii\helpers\Url;
 						<i class="fa fa-search-plus fa-3x"></i>
 					</div>
 				</div>
-				<img src="img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
+				<img src="<?=$imageUrl.'submarine.png'?>submarine.png" class="img-responsive" alt="Submarine">
 			</a>
 		</div>
