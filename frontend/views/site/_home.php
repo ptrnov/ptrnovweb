@@ -33,7 +33,7 @@ use yii\helpers\Url;
 
 ?>
 			
-<div style="height:550px; padding-top:110px">
+<div style="height:650px; padding-top:160px">
 		<img src="http://ptrnov.net/img/pp.jpg"  class="img-circle" alt="Cinque Terre" width="150" height="150">
 		<div class="intro-text">
 			<h2 class=""> Tanjung Sakti</h2>
