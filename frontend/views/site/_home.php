@@ -32,14 +32,14 @@ use yii\helpers\Url;
 	",$this::POS_READY);
 
 ?>
-			<div class="" id="home" tabindex="-1">
-				<div style="height:550px; padding-top:110px">
-						<img src="http://ptrnov.net/img/pp.jpg"  class="img-circle" alt="Cinque Terre" width="150" height="150">
-						<div class="intro-text">
-							<h2 class=""> Tanjung Sakti</h2>
-							<hr class="star-light">
-							<span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-						</div>
-					
-				</div>
-			</div>
+			
+<div style="height:550px; padding-top:110px">
+		<img src="http://ptrnov.net/img/pp.jpg"  class="img-circle" alt="Cinque Terre" width="150" height="150">
+		<div class="intro-text">
+			<h2 class=""> Tanjung Sakti</h2>
+			<hr class="star-light">
+			<span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+		</div>
+	
+</div>
+		
