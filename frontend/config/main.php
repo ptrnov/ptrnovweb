@@ -1,5 +1,4 @@
 <?php
-use Yii;
 $params = array_merge(
     require(__DIR__ . '/../../common/config/params.php'),
     require(__DIR__ . '/../../common/config/params-local.php')
@@ -44,7 +43,7 @@ return [
             ],
         ],
     ],
-   'params' => [ 
+   /* 'params' => [ 
 	    'IMG_FRONT'=>Yii::$app->basePath."/web/template/ptr_front_smoth/img/",
-    ],
+    ], */
 ];

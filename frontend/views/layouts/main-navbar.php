@@ -77,6 +77,6 @@ AppAssetFreelancer::register($this);
 	
 <?php
 $this->registerJs("
-	$('body').scrollspy({ target: '.navbar-fixed-top' })
+	//$('body').scrollspy({ target: '.navbar-fixed-top' })
 ",$this::POS_READY);
 ?>
