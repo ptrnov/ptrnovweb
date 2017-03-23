@@ -37,7 +37,7 @@ use yii\helpers\Url;
 	 <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About1</h2>
+                    <h2>About ME</h2>
                     <hr class="star-light">
                 </div>
             </div>
