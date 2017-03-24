@@ -49,8 +49,8 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
-hr.star-light {
-  border-color: white;
+hr.star-light {  //Star - Line left right
+  border-color: #fdff28;
 }
 hr.star-light:after {
   background-color: #5f8aaf;
@@ -103,7 +103,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #2C3E50; //Navbar - bcolor panel, modify -ptrnov-
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -134,12 +134,24 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li.active a {
   color: white;
   background: #5f8aaf;
+   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
+.navbar-custom .navbar-nav li.active a:active {  //box btn nav bar active, modify -ptrnov-
   color: white;
   background: #5f8aaf;
+   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 .navbar-custom .navbar-toggle {
   color: white;

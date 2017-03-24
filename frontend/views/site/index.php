@@ -12,7 +12,9 @@
 
 		<!-- Portfolio Grid Section -->
 		 <section id="portfolio">
-			<?=$this->render('_indexPortofolio')?>
+			
+				<?=$this->render('_indexPortofolio')?>
+	
 		</section>
 
 		<!-- About Section -->
